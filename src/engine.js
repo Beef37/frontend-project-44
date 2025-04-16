@@ -1,5 +1,5 @@
-import gameEven from './brain-calc.js';
-import gameEven from './brain-even.js';
+import gameLibraryt from "./games-library.js";
+import readlineSync from 'readline-sync'
 
 export default (game) => {
     const MAX_ROUNDS = 3;
@@ -14,7 +14,7 @@ for (let round = 0; round < MAX_ROUNDS; round += 1) {
     const {question, correctAnswer} = questionAndAnswer();
     console.log(question);
     const userAnswer = readlineSync.question('Your answer: ');
-    if (correctAnswer === userAnswer.toLocateLowerCase()) {
+    if (correctAnswer.toString().toLowerCase() === userAnswer.toLowerCase()) {
         console.log(`Correct!`);
     }
     else {
