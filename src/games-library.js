@@ -1,5 +1,6 @@
-import gameEven from "./brain-even.js";
-import gameCalc from "./brain-calc.js";
+import gameEven from "../src/brain-even.js";
+import gameCalc from "../src/brain-calc.js";
+import gameGcd from "../src/brain-gcd.js";
 
 export default {
     'even' : {
@@ -7,7 +8,11 @@ export default {
         questionAndAnswer: gameEven
     },
     'calc' : {
-        description: 'Whst is result of the expression?',
+        description: 'What is result of the expression?',
         questionAndAnswer: gameCalc
+    },
+    'gcd' : {
+        description: 'Find the greatest common divisor of given numbers.',
+        questionAndAnswer: gameGcd
     },
 };
