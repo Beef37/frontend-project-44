@@ -2,6 +2,7 @@ import gameEven from "../src/brain-even.js";
 import gameCalc from "../src/brain-calc.js";
 import gameGcd from "../src/brain-gcd.js";
 import gameProgression from "../src/brain-progression.js";
+import gamePrime from "../src/brain-prime.js";
 
 export default {
     'even' : {
@@ -20,5 +21,9 @@ export default {
     'progression' : {
         "description": 'What number is missing in the progression?',
         "questionAndAnswer": gameProgression
+    },
+    'prime' : {
+        "description": 'Answer "yes" if given number is prime. Otherwise answer "no".?',
+        "questionAndAnswer": gamePrime
     },
 };

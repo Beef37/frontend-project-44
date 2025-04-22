@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import readLineSync, { question } from "readline-sync"
 import { getInt } from "../src/helper.js"
 

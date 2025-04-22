@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { getInt } from "./helper.js";
 
 export default () => {

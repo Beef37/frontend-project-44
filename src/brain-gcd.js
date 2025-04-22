@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { getInt, isEven } from "../src/helper.js";
 
 export default () => {
